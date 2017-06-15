@@ -14,20 +14,24 @@ Feature: Wireless_Configuration
         When I click on element having xpath "//*[@id="sub-menu-wireless-network"]/div/div/section[2]/ul/li[1]/a"
         And I wait for 2 sec
         Then element having xpath "/html/body/div/global-header/ul[1]/li[2]" should have text as "Configuration / Management Group"
+        Then I take screenshot
 
     Scenario: Check Default Group
         And I wait for 2 sec
         Then element having xpath "/html/body/div/article/div/div/div[3]/ul/li/p[1]/span[1]" should have text as "Default Group"
+        Then I take screenshot
 
     Scenario: Can't delete Default Group
         And I wait for 2 sec
         Then element having xpath "/html/body/div[1]/article/div/div/div[3]/ul/li[1]/p[7]" should have attribute "class" with value "wireless-group-list__item__delete hidden"
+        Then I take screenshot
 
     Scenario: Create Management Group
         And I wait for 2 sec
         When I click on element having xpath "/html/body/div[1]/article/header/div/ul/li/button"
         And I wait for 2 sec
         Then element having class "popup-header" should have text as "Create Management Group"
+        Then I take screenshot
         And I click on element having class "ngdialog-close"
 
     Scenario: Edit Default Group
@@ -35,6 +39,7 @@ Feature: Wireless_Configuration
         When I click on element having xpath "/html/body/div[1]/article/div/div/div[3]/ul/li[1]/p[6]/span"
         And I wait for 2 sec
         Then element having class "popup-header" should have text as "Edit Management Group"
+        Then I take screenshot
         And I click on element having class "ngdialog-close"
 
     Scenario: Access to Profile
@@ -43,10 +48,12 @@ Feature: Wireless_Configuration
         When I click on element having xpath "//*[@id="sub-menu-wireless-network"]/div/div/section[2]/ul/li[2]/a"
         And I wait for 2 sec
         Then element having xpath "/html/body/div/global-header/ul[1]/li[2]" should have text as "Configuration / Profile"
+        Then I take screenshot
 
     Scenario: Check No Profile
         And I wait for 2 sec
         Then element having xpath "/html/body/div/article/div/div/div[3]/ul/li" should not be present
+        Then I take screenshot
 
     Scenario: Access to Wireless AP Settings
         And I wait for 2 sec
@@ -54,10 +61,12 @@ Feature: Wireless_Configuration
         When I click on element having xpath "//*[@id="sub-menu-wireless-network"]/div/div/section[2]/ul/li[3]/a"
         And I wait for 2 sec
         Then element having xpath "/html/body/div/global-header/ul[1]/li[2]" should have text as "Configuration / Wireless AP Settings"
+        Then I take screenshot
 
     Scenario: Check No AP
         And I wait for 2 sec
         Then element having xpath "/html/body/div[1]/article/div/div/div[3]/div[2]/ul/li" should not be present
+        Then I take screenshot
 
     Scenario: Create Manual Registration pop-up
         And I wait for 2 sec
@@ -65,6 +74,7 @@ Feature: Wireless_Configuration
         When I click on element having xpath "/html/body/div[1]/article/header/div/ul[2]/li[1]/div/div/ul/li[1]/span"
         And I wait for 2 sec
         Then element having class "popup-header" should have text as "Wireless AP Registration"
+        Then I take screenshot
         And I click on element having class "ngdialog-close"
 
     Scenario: Create Registration from CSV File pop-up
@@ -73,6 +83,7 @@ Feature: Wireless_Configuration
         When I click on element having xpath "/html/body/div[1]/article/header/div/ul[2]/li[1]/div/div/ul/li[2]/span"
         And I wait for 2 sec
         Then element having class "popup-header" should have text as "Registration from CSV File"
+        Then I take screenshot
         And I click on element having class "ngdialog-close"
 
     Scenario: Create Registration from Guest Node pop-up
@@ -81,6 +92,7 @@ Feature: Wireless_Configuration
         When I click on element having xpath "/html/body/div[1]/article/header/div/ul[2]/li[1]/div/div/ul/li[3]/span"
         And I wait for 2 sec
         Then element having class "popup-header" should have text as "Error"
+        Then I take screenshot
         And I click on element having class "ngdialog-close"
 
     Scenario: Access to Operation Scheduling
@@ -89,16 +101,19 @@ Feature: Wireless_Configuration
         When I click on element having xpath "//*[@id="sub-menu-wireless-network"]/div/div/section[2]/ul/li[4]/a"
         And I wait for 2 sec
         Then element having xpath "/html/body/div/global-header/ul[1]/li[2]" should have text as "Configuration / Operation Scheduling"
+        Then I take screenshot
 
     Scenario: Check Default Group AWC
         And I wait for 2 sec
         Then element having xpath "/html/body/div/article/div/div/div[3]/div[2]/ul/li/p[1]/span" should have text as "Default Group AWC"
+        Then I take screenshot
 
     Scenario: Create  Registration from Guest Node pop-up
         And I wait for 2 sec
         When I click on element having xpath "/html/body/div/article/header/div/ul/li/button"
         And I wait for 2 sec
         Then element having class "popup-header" should have text as "Create Operation Schedule"
+        Then I take screenshot
         And I click on element having class "ngdialog-close"
 
     Scenario: AVM Logout

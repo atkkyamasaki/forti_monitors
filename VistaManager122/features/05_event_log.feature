@@ -13,20 +13,23 @@ Feature: Event_Log
         When I click on element having xpath "/html/body/div[1]/global-menu/ul/li[3]/a"
         And I wait for 2 sec
         Then element having xpath "/html/body/div/global-header/ul[1]/li" should have text as "Event"
+        Then I take screenshot
 
     Scenario: Check No Log information(Show all)
         And I wait for 2 sec
         Then element having xpath "/html/body/div/article/div/div/div[3]/ul/li[1]" should not be present
+        Then I take screenshot
 
     Scenario: Check No Log information(Show warnings only)
         And I wait for 2 sec
         When I click on element having xpath "/html/body/div/article/header/div/ul[1]/li/button"
         Then element having xpath "/html/body/div/article/div/div/div[3]/ul/li[1]" should not be present
+        Then I take screenshot
 
     Scenario: Check Export CSV
         And I wait for 2 sec
-        And I wait for 2 sec
         Then element having xpath "/html/body/div/article/header/div/ul[2]/li/button" should be present
+        Then I take screenshot
 
     Scenario: AVM Logout
         And I wait for 2 sec

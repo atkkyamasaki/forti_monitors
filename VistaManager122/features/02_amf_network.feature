@@ -13,17 +13,19 @@ Feature: AMF_Network
         When I click on element having xpath "/html/body/div[1]/global-menu/ul/li[1]/a"
         And I wait for 2 sec
         Then element having xpath "/html/body/div/global-header/ul[1]/li" should have text as "AMF Network Catalog"
+        Then I take screenshot
 
     Scenario: AMF Network is empty
         And I wait for 2 sec
         Then element having xpath "/html/body/div[1]/article/div/ul/li" should not be present
+        Then I take screenshot
 
     Scenario: Create AMF Network pop-up
-        And I wait for 2 sec
         And I wait for 2 sec
         When I click on element having xpath "/html/body/div[1]/article/header/div/button"
         And I wait for 2 sec
         Then element having class "popup-header" should have text as "Create AMF Network"
+        Then I take screenshot
         And I click on element having class "ngdialog-close"
 
     Scenario: AVM Logout

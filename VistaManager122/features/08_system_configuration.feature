@@ -14,17 +14,21 @@ Feature: System_configuration
         When I click on element having xpath "/html/body/div[1]/global-menu/ul/li[6]/a"
         And I wait for 2 sec
         Then element having xpath "/html/body/div/global-header/ul[1]/li" should have text as "System Setting"
+        Then I take screenshot
 
     Scenario: Version Check
         And I wait for 2 sec
         Then element having xpath "/html/body/div/article/div/section[1]/div/span[1]" should have text as "1.3.0"
+        Then I take screenshot
         Then element having xpath "/html/body/div/article/div/section[1]/div/span[2]" should have text as "B01"
+        Then I take screenshot
 
     Scenario: Initialize pop-up
         And I wait for 2 sec
         When I click on element having xpath "/html/body/div/article/div/section[2]/div[2]/button"
         And I wait for 5 sec
         Then element having class "popup-header" should have text as "Initialize"
+        Then I take screenshot
         And I click on element having class "ngdialog-close"
 
     Scenario: AVM Logout

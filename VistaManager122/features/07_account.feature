@@ -13,10 +13,13 @@ Feature: Account
         When I click on element having xpath "/html/body/div[1]/global-menu/ul/li[5]/a"
         And I wait for 2 sec
         Then element having xpath "/html/body/div/global-header/ul[1]/li" should have text as "User Accounts"
+        Then I take screenshot
+
 
     Scenario: Check Administrator only
         And I wait for 2 sec
         Then element having xpath "/html/body/div[1]/article/div/div/div/section/article[1]/div[2]/ul/li[2]" should not be present
+        Then I take screenshot
 
     Scenario: Add User pop-up
         And I wait for 2 sec
@@ -24,6 +27,7 @@ Feature: Account
         When I click on element having xpath "/html/body/div[1]/article/header/div/button"
         And I wait for 2 sec
         Then element having class "popup-header" should have text as "Add Unprivileged User Account"
+        Then I take screenshot
         And I click on element having class "ngdialog-close"
 
     Scenario: Edit User pop-up
@@ -34,6 +38,7 @@ Feature: Account
         When I click on element having xpath "/html/body/div[1]/article/div/div/div/section/article[2]/div/div/div[2]/button[1]"
         And I wait for 2 sec
         Then element having class "popup-header" should have text as "Edit User account"
+        Then I take screenshot
         And I click on element having class "ngdialog-close"
 
     Scenario: AVM Logout
