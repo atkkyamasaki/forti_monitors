@@ -1,5 +1,8 @@
-require 'selenium-cucumber'
+Then(/^I input enter key into input field having (.+) "([^\"]*)"$/) do |type, access_name|
+  validate_locator type
+  input_enter_key(type, access_name)
+end
 
-# Do Not Remove This File
-# Add your custom steps here
-# $driver is instance of webdriver use this instance to write your custom code
+def input_enter_key(access_type, access_name)
+    $driver.find_element(:"#{access_type}" => "#{access_name}").send_keys("\n")
+end
