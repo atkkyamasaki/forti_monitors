@@ -19,7 +19,7 @@ Feature: System_configuration
     Scenario: Version Check
         And I wait for 2 sec
         Then element having xpath "/html/body/div/article/div/section[1]/div/span[1]" should have text as "1.2.2"
-        Then element having xpath "/html/body/div/article/div/section[1]/div/span[2]" should have text as "B02"
+        Then element having xpath "/html/body/div/article/div/section[1]/div/span[2]" should have text as "B03"
         Then I take screenshot
 
     Scenario: Initialize pop-up
