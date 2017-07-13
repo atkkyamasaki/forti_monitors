@@ -27,7 +27,7 @@ Feature: Wireless Configuration
     Scenario: Create Management Group
         Then I enter "mgmt01" into input field having name "name"
         Then I click on element having xpath "//*[@id='ngdialog2']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then element having xpath "/html/body/div/article/div/div/div[3]/ul/li[2]/p[1]/span[1]" should have text as "mgmt01"
         Then I take screenshot
 
