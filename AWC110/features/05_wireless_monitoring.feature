@@ -91,7 +91,7 @@ Feature: Wireless Monitoring
         Then I enter "00:1A:EB:B1:8B:A0" into input field having name "macAddress"
         Then I select "Default Group" option by text from dropdown having name "wirelessGroupId"
         Then I click on element having xpath "//*[@id='ngdialog1']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I take screenshot
         Then I click on element having xpath "/html/body/div/global-menu/ul/div[2]/global-menu-wireless-configuration/li[3]/a"
         Then I wait for 2 sec
@@ -120,7 +120,7 @@ Feature: Wireless Monitoring
         Then I click on element having id "svg-canvas"
         Then I wait for 2 sec
         Then I click on element having xpath "/html/body/div/article/header/div/ul[4]/li[3]/button"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I take screenshot
 
     Scenario: Check add Wireless AP
@@ -176,7 +176,7 @@ Feature: Wireless Monitoring
         Then I click on element having xpath "/html/body/div[1]/article/div/div/div[3]/ul/li[4]/a/div[11]/span[2]"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog2']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I take screenshot
 
     Scenario: Delete MAP (Display:list)
@@ -192,7 +192,7 @@ Feature: Wireless Monitoring
         Then I click on element having xpath "/html/body/div[1]/article/div/div/div[3]/ul/li[3]/a/div[10]/span[2]"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog4']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I take screenshot
 
     # ============= Wireless AP Status ============= 

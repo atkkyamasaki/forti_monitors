@@ -71,7 +71,7 @@ Feature: Wireless Configuration
         Then I click on element having xpath "/html/body/div[1]/article/div/div/div[3]/ul/li[2]/p[7]/span"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog5']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I take screenshot
 
     # ============= Profile ============= 
@@ -160,7 +160,7 @@ Feature: Wireless Configuration
         Then I click on element having xpath "//*[@id='ngdialog1']/div/div/div/div[2]/section[1]/div"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog1']/div[2]/div/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then element having xpath "/html/body/div[1]/article/header/div/ul/li[1]/button" should be disabled
         Then I take screenshot
 
@@ -177,7 +177,7 @@ Feature: Wireless Configuration
         Then I click on element having xpath "//*[@id='ngdialog1']/div/div/div/div[2]/section[1]/div"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog1']/div[2]/div/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I enter "01_tq_jp_11ac" into input field having name "name"
         Then I click on element having xpath "/html/body/div[1]/article/header/div/ul/li[1]/button"
         Then I wait for 5 sec
@@ -192,7 +192,7 @@ Feature: Wireless Configuration
         Then I click on element having xpath "//*[@id='ngdialog1']/div/div/div/div[2]/section[2]/div"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog1']/div[2]/div/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I enter "02_tq_jp_11n" into input field having name "name"
         Then I click on element having xpath "/html/body/div[1]/article/header/div/ul/li[1]/button"
         Then I wait for 5 sec
@@ -207,7 +207,7 @@ Feature: Wireless Configuration
         Then I click on element having xpath "//*[@id='ngdialog1']/div/div/div/div[2]/section[3]/div"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog1']/div[2]/div/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I enter "03_tq_jp_single" into input field having name "name"
         Then I click on element having xpath "/html/body/div[1]/article/header/div/ul/li[1]/button"
         Then I wait for 5 sec
@@ -222,7 +222,7 @@ Feature: Wireless Configuration
         Then I click on element having xpath "//*[@id='ngdialog1']/div/div/div/div[2]/section[4]/div"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog1']/div[2]/div/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I enter "04_tq_jp_external" into input field having name "name"
         Then I click on element having xpath "/html/body/div[1]/article/header/div/ul/li[1]/button"
         Then I wait for 5 sec
@@ -237,7 +237,7 @@ Feature: Wireless Configuration
         Then I click on element having xpath "//*[@id='ngdialog1']/div/div/div/div[2]/section[1]/div"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog1']/div[2]/div/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I enter "05_tq_at_11ac" into input field having name "name"
         Then I click on element having xpath "/html/body/div[1]/article/header/div/ul/li[1]/button"
         Then I wait for 5 sec
@@ -252,7 +252,7 @@ Feature: Wireless Configuration
         Then I click on element having xpath "//*[@id='ngdialog1']/div/div/div/div[2]/section[4]/div"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog1']/div[2]/div/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I enter "06_tq_at_external" into input field having name "name"
         Then I click on element having xpath "/html/body/div[1]/article/header/div/ul/li[1]/button"
         Then I wait for 5 sec
@@ -271,7 +271,7 @@ Feature: Wireless Configuration
         Then I click on element having xpath "//*[@id='ngdialog1']/div/div/div/div[2]/section[5]/div"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog1']/div[2]/div/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I enter "11_mws_jp_11ac" into input field having name "name"
         Then I click on element having xpath "/html/body/div[1]/article/header/div/ul/li[1]/button"
         Then I wait for 5 sec
@@ -288,7 +288,7 @@ Feature: Wireless Configuration
         Then I click on element having xpath "//*[@id='ngdialog1']/div/div/div/div[2]/section[6]/div"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog1']/div[2]/div/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I enter "12_mws_jp_11n" into input field having name "name"
         Then I click on element having xpath "/html/body/div[1]/article/header/div/ul/li[1]/button"
         Then I wait for 5 sec
@@ -335,10 +335,10 @@ Feature: Wireless Configuration
         Then I click on element having xpath "/html/body/div[1]/article/header/div[2]/ul/li[2]/button"
         Then I take screenshot
         Then I click on element having xpath "//*[@id='ngdialog2']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I take screenshot
         Then I click on element having xpath "//*[@id='ngdialog3']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I take screenshot
 
     # ============= Wireless AP Settings ============= 
@@ -354,7 +354,7 @@ Feature: Wireless Configuration
         Then I enter "00:1A:EB:B1:8B:A0" into input field having name "macAddress"
         Then I select "Default Group" option by text from dropdown having name "wirelessGroupId"
         Then I click on element having xpath "//*[@id='ngdialog1']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I take screenshot
         Then I click on element having xpath "/html/body/div/global-menu/ul/div[2]/global-menu-wireless-configuration/li[3]/a"
         Then I wait for 2 sec
@@ -381,7 +381,7 @@ Feature: Wireless Configuration
         Then I enter "01_tq4400e_test" into input field having name "name"
         Then I select "Default Group" option by text from dropdown having name "wirelessGroupId"
         Then I click on element having xpath "//*[@id='ngdialog1']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then element having xpath "//*[@id='ngdialog1']/div[2]/div[1]/footer/button[1]" should be disabled
         Then I take screenshot
 
@@ -391,7 +391,7 @@ Feature: Wireless Configuration
         Then I enter "00:1A:EB:B1:8B:A0" into input field having name "macAddress"
         Then I select "Default Group" option by text from dropdown having name "wirelessGroupId"
         Then I click on element having xpath "//*[@id='ngdialog1']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then element having xpath "//*[@id='ngdialog1']/div[2]/div[1]/div/p" should have text as "Could not save the wireless AP."
         Then I take screenshot
 
@@ -411,11 +411,11 @@ Feature: Wireless Configuration
         Then I enter "C:\auto_ui_test\AWC110\features\test_files\csv1.csv" into input field having name "file"
         Then I select "Default Group" option by text from dropdown having name "wirelessGroupId"
         Then I click on element having xpath "//*[@id='ngdialog1']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then element having id "ngdialog2-aria-labelledby" should have text as "Complete"
         Then I take screenshot
         Then I click on element having xpath "//*[@id='ngdialog2']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then element having xpath "/html/body/div[1]/article/div/div/div[3]/div[2]/ul/li[2]/p[2]" should have text as "02_mws1750ap"
         Then element having xpath "/html/body/div[1]/article/div/div/div[3]/div[2]/ul/li[2]/div[1]/div[1]/p[1]" should have text as "192.168.110.238"
         Then element having xpath "/html/body/div[1]/article/div/div/div[3]/div[2]/ul/li[2]/div[1]/div[1]/p[2]" should have text as "00:1a:eb:a1:d8:45"
@@ -444,7 +444,7 @@ Feature: Wireless Configuration
         Then element having xpath "//*[@id='ngdialog5']/div[2]/div[1]/div/div[2]/ul/li/p[2]" should have text as "Too few columns."
         Then I take screenshot
         Then I click on element having xpath "//*[@id='ngdialog5']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I click on element having class "ngdialog-close"
 
     Scenario: Add Tag (Edit Tag)
@@ -461,7 +461,7 @@ Feature: Wireless Configuration
         Then I input enter key into input field having xpath "//*[@id='ngdialog1']/div[2]/div[1]/div/div[2]/ul/li/input"
         Then I take screenshot
         Then I click on element having xpath "//*[@id='ngdialog1']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then element having xpath "/html/body/div[1]/article/div/div/div[3]/div[2]/ul/li[1]/div[1]/div[1]/p[5]" should have text as "tq"
         Then I take screenshot
 
@@ -476,7 +476,7 @@ Feature: Wireless Configuration
         Then I input enter key into input field having xpath "//*[@id='ngdialog2']/div[2]/div[1]/div/div[2]/ul/li[2]/input"
         Then I take screenshot
         Then I click on element having xpath "//*[@id='ngdialog2']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then element having xpath "/html/body/div[1]/article/div/div/div[3]/div[2]/ul/li[1]/div[1]/div[1]/p[5]" should have text as "tq, tq_test"
         Then I take screenshot
 
@@ -491,7 +491,7 @@ Feature: Wireless Configuration
         Then I click on element having xpath "//*[@id='ngdialog3']/div[2]/div[1]/div/div[2]/ul/li[2]/div/span[2]"
         Then I take screenshot
         Then I click on element having xpath "//*[@id='ngdialog3']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then element having xpath "/html/body/div[1]/article/div/div/div[3]/div[2]/ul/li[1]/div[1]/div[1]/p[5]" should have text as "tq"
         Then I take screenshot
 
@@ -571,7 +571,7 @@ Feature: Wireless Configuration
         Then I click on element having xpath "//*[@id='ngdialog2']/div[2]/div[1]/div/div[2]/article[1]/div[1]/div[2]/ul/li/div[1]"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog2']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then element having xpath "/html/body/div[1]/article/div/div/div[3]/div[2]/ul/li[1]/div[1]/div[2]/div[1]/div/span[1]" should have text as "06_tq_at_external"
         Then I take screenshot
         
@@ -586,18 +586,18 @@ Feature: Wireless Configuration
         Then I click on element having xpath "//*[@id='ngdialog1']/div[2]/div[1]/div/div[2]/article[1]/div[1]/div[2]/ul/li[2]/div[1]"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog1']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then element having id "ngdialog2-aria-labelledby" should have text as "Confirm"
         Then I take screenshot
         Then I click on element having xpath "//*[@id='ngdialog2']/div[2]/div[1]/footer/button[1]"
 
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I click on element having xpath "/html/body/div[1]/article/div/div/div[3]/div[2]/ul/li[1]/div[1]/div[2]/div[1]/div/span[2]"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog3']/div[2]/div[1]/div/div[2]/article[1]/div[1]/div[2]/ul/li[1]/div[1]"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog3']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then element having id "ngdialog4-aria-labelledby" should have text as "Confirm"
         Then I take screenshot
         Then I click on element having xpath "//*[@id='ngdialog4']/div[2]/div[1]/footer/button[1]"
@@ -651,7 +651,7 @@ Feature: Wireless Configuration
         Then I clear input field having name "ipAddress"
         Then I enter "192.168.110.233" into input field having name "ipAddress"
         Then I click on element having xpath "//*[@id='ngdialog2']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then element having xpath "/html/body/div[1]/article/div/div/div[3]/div[2]/ul/li[1]/div[1]/div[1]/p[1]" should have text as "192.168.110.233"
         Then I take screenshot
 
@@ -660,7 +660,7 @@ Feature: Wireless Configuration
         Then I clear input field having name "ipAddress"
         Then I enter "192.168.110.232" into input field having name "ipAddress"
         Then I click on element having xpath "//*[@id='ngdialog3']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
 
     Scenario: Edit Wireless AP (Node Detail Page)
         Then I wait for 2 sec
@@ -701,7 +701,7 @@ Feature: Wireless Configuration
         Then I enter "password" into input field having name "loginPasswordConfirm"
         Then I wait for 2 sec
         Then I click on element having xpath "/html/body/div[1]/article/header/div[2]/ul/li/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then I take screenshot
 
     Scenario: Apply Profile
@@ -763,7 +763,7 @@ Feature: Wireless Configuration
         Then I click on element having xpath "/html/body/div[1]/article/header/div/ul[2]/li[1]/div/div/ul/li[7]/span"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog2']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then element having xpath "/html/body/div[1]/article/div/div/div[3]/div[2]/ul/li[1]/p[2]" should have text as "02_mws1750ap"
         Then I take screenshot
 
@@ -779,7 +779,7 @@ Feature: Wireless Configuration
         Then I take screenshot
 
         Then I click on element having xpath "/html/body/div/article/header/div/ul/li/button"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then element having xpath "//*[@id='ngdialog2']/div[2]/div[1]/footer/button[1]" should be disabled
         Then I take screenshot
 
@@ -789,7 +789,7 @@ Feature: Wireless Configuration
         Then I select "Default Group" option by text from dropdown having name "wirelessGroupId"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog2']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then element having xpath "/html/body/div/article/div/div/div[3]/div[2]/ul/li[1]/p[1]/span" should have text as "01_awc_result"
         Then I take screenshot
 
@@ -835,7 +835,7 @@ Feature: Wireless Configuration
         Then I click on element having xpath "/html/body/div[1]/article/div/div/div[3]/div[2]/ul/li[1]/p[9]/span"
         Then I wait for 2 sec
         Then I click on element having xpath "//*[@id='ngdialog2']/div[2]/div[1]/footer/button[1]"
-        Then I wait for 2 sec
+        Then I wait for 5 sec
         Then element having xpath "/html/body/div/article/div/div/div[3]/div[2]/ul/li/p[1]/span" should have text as "Default Group AWC"
         Then I take screenshot
 
